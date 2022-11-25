@@ -23,7 +23,14 @@ body{
     grid-template-columns: repeat(3, 1fr);
     /* column-gap: 10px; */
     gap: 10px;
-    
+    /* grid-auto-rows: minmax(200px, auto); */
+    /* grid-template-rows: repeat(3, 1fr); */
+
+
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* justify-content: center; */
 }
 
 .item {
@@ -33,4 +40,16 @@ body{
     padding: 20px;
     border: skyblue 1px solid;
     /* margin: 10px; */
+}
+
+/* modif itm 2 saja (tanpa ada nama unik di class item 2 */
+.item:nth-of-type(2) {
+    height: 100px;
+    width: 100px;
+
+    /* align-self: center; */
+    /* align-self: flex-end; */
+    /* justify-self: center; */
+    /* justify-self: flex-end; */
+    justify-self: start;
 }
