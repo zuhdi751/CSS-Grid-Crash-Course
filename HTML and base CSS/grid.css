@@ -54,22 +54,18 @@ body{
     /* justify-self: start; */
 /* } */ 
 
-.item:nth-of-type(1){
-    background: #000;
+/* .item:nth-of-type(1){
+    background: #000; */
 
     /* grid-column-start: 1;
     grid-column-end: 3; */
 
-    grid-column: 1/3;
+    /* grid-column: 1/3; */
     /* grid-column: 1/span2; */
-}
+/* } */
 
-.item:nth-of-type(3){
+/* .item:nth-of-type(3){
     background: #000;
     grid-row: 2/4;
-}
+} */
 
-.item:nth-of-type(4){
-    background: #000;
-    grid-row: 2/4;
-}
